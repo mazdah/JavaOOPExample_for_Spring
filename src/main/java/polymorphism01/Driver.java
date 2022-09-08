@@ -14,6 +14,7 @@ public class Driver {
         Animal pingu = new Penguin();
 
         pingu.name = "핑구";
+        // Animal에서 정의한 showName()이 아닌 Penguin 클래스에서 재정의한 showName()이 호출된다.
         pingu.showName();
     }
 }
